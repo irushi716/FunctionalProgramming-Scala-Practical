@@ -1,0 +1,437 @@
+2024.06.18 01:57:02 INFO  Started: Metals version 1.3.1 in folders 'C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18b1e155]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@118db580]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18b1e155]
+2024.06.18 01:57:02 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 01:57:03 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 01:57:05 INFO  Running List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime)
+2024.06.18 01:57:05 INFO  Attempting to connect to the build server...
+2024.06.18 01:57:05 INFO  Running BSP server List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\.scala-build\ide-envs.json, C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime)
+2024.06.18 01:57:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\.metals\bsp.trace.json or C:\Users\irushi weerasinghe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 01:57:07 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/runningTime/runningTime.scala
+2024.06.18 01:57:10 INFO  time: Connected to build server in 4.27s
+2024.06.18 01:57:10 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.18 01:57:11 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:57:11 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 01:57:15 INFO  time: indexed workspace in 4.62s
+2024.06.18 01:57:17 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/runningTime/runningTime.scala
+2024.06.18 01:57:19 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/runningTime/runningTime.scala
+2024.06.18 01:58:51 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/runningTime/runningTime.scala
+2024.06.18 01:58:51 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:58:51 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 01:58:52 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/runningTime/runningTime.scala
+2024.06.18 01:58:55 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:58:55 INFO  time: compiled runningTime_f4dd477a3a in 0.16s
+2024.06.18 01:58:57 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:58:57 INFO  time: compiled runningTime_f4dd477a3a in 0.18s
+2024.06.18 01:59:04 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:04 INFO  time: compiled runningTime_f4dd477a3a in 95ms
+2024.06.18 01:59:06 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:06 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 01:59:24 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:24 INFO  time: compiled runningTime_f4dd477a3a in 80ms
+2024.06.18 01:59:26 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:26 INFO  time: compiled runningTime_f4dd477a3a in 83ms
+2024.06.18 01:59:28 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:28 INFO  time: compiled runningTime_f4dd477a3a in 70ms
+2024.06.18 01:59:59 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 01:59:59 INFO  time: compiled runningTime_f4dd477a3a in 82ms
+2024.06.18 02:00:03 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:03 INFO  time: compiled runningTime_f4dd477a3a in 0.15s
+2024.06.18 02:00:07 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:07 INFO  time: compiled runningTime_f4dd477a3a in 91ms
+2024.06.18 02:00:10 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:10 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:00:15 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:15 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:00:18 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:18 INFO  time: compiled runningTime_f4dd477a3a in 79ms
+2024.06.18 02:00:25 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:25 INFO  time: compiled runningTime_f4dd477a3a in 92ms
+2024.06.18 02:00:27 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:27 INFO  time: compiled runningTime_f4dd477a3a in 65ms
+2024.06.18 02:00:28 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:28 INFO  time: compiled runningTime_f4dd477a3a in 68ms
+2024.06.18 02:00:30 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:30 INFO  time: compiled runningTime_f4dd477a3a in 78ms
+2024.06.18 02:00:33 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:00:33 INFO  time: compiled runningTime_f4dd477a3a in 0.17s
+2024.06.18 02:01:18 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:18 INFO  time: compiled runningTime_f4dd477a3a in 92ms
+2024.06.18 02:01:24 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:24 INFO  time: compiled runningTime_f4dd477a3a in 97ms
+Jun 18, 2024 2:01:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+2024.06.18 02:01:26 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:26 INFO  time: compiled runningTime_f4dd477a3a in 85ms
+2024.06.18 02:01:29 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:29 INFO  time: compiled runningTime_f4dd477a3a in 82ms
+Jun 18, 2024 2:01:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 372
+2024.06.18 02:01:33 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:33 INFO  time: compiled runningTime_f4dd477a3a in 86ms
+2024.06.18 02:01:35 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:35 INFO  time: compiled runningTime_f4dd477a3a in 60ms
+2024.06.18 02:01:39 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:39 INFO  time: compiled runningTime_f4dd477a3a in 77ms
+2024.06.18 02:01:44 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:44 INFO  time: compiled runningTime_f4dd477a3a in 90ms
+2024.06.18 02:01:45 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:45 INFO  time: compiled runningTime_f4dd477a3a in 78ms
+2024.06.18 02:01:51 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:51 INFO  time: compiled runningTime_f4dd477a3a in 77ms
+2024.06.18 02:01:53 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:53 INFO  time: compiled runningTime_f4dd477a3a in 91ms
+2024.06.18 02:01:57 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:57 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+2024.06.18 02:01:58 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:01:58 INFO  time: compiled runningTime_f4dd477a3a in 0.38s
+2024.06.18 02:02:02 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:02 INFO  time: compiled runningTime_f4dd477a3a in 0.39s
+2024.06.18 02:02:14 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:14 INFO  time: compiled runningTime_f4dd477a3a in 0.3s
+2024.06.18 02:02:17 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:17 INFO  time: compiled runningTime_f4dd477a3a in 0.3s
+Jun 18, 2024 2:02:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 535
+2024.06.18 02:02:23 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:23 INFO  time: compiled runningTime_f4dd477a3a in 90ms
+2024.06.18 02:02:34 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:34 INFO  time: compiled runningTime_f4dd477a3a in 0.34s
+2024.06.18 02:02:41 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:41 INFO  time: compiled runningTime_f4dd477a3a in 0.34s
+2024.06.18 02:02:45 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:45 INFO  time: compiled runningTime_f4dd477a3a in 0.32s
+Jun 18, 2024 2:02:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 656
+2024.06.18 02:02:51 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:51 INFO  time: compiled runningTime_f4dd477a3a in 0.33s
+2024.06.18 02:02:52 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:52 INFO  time: compiled runningTime_f4dd477a3a in 0.81s
+2024.06.18 02:02:55 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:55 INFO  time: compiled runningTime_f4dd477a3a in 0.44s
+2024.06.18 02:02:58 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:02:58 INFO  time: compiled runningTime_f4dd477a3a in 0.4s
+2024.06.18 02:03:00 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:00 INFO  time: compiled runningTime_f4dd477a3a in 0.43s
+2024.06.18 02:03:02 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:02 INFO  time: compiled runningTime_f4dd477a3a in 0.33s
+2024.06.18 02:03:05 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:05 INFO  time: compiled runningTime_f4dd477a3a in 0.38s
+2024.06.18 02:03:47 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:47 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+2024.06.18 02:03:50 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:50 INFO  time: compiled runningTime_f4dd477a3a in 91ms
+2024.06.18 02:03:57 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:03:57 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:04:01 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed comment
+            8/*distance
+             ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:04:02 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:02 INFO  time: compiled runningTime_f4dd477a3a in 81ms
+2024.06.18 02:04:02 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed comment
+            8/*distance
+             ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:04:04 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:04 INFO  time: compiled runningTime_f4dd477a3a in 0.13s
+2024.06.18 02:04:06 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:06 INFO  time: compiled runningTime_f4dd477a3a in 80ms
+2024.06.18 02:04:08 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:08 INFO  time: compiled runningTime_f4dd477a3a in 0.13s
+2024.06.18 02:04:29 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:29 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:04:39 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:39 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:04:55 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:55 INFO  time: compiled runningTime_f4dd477a3a in 0.16s
+2024.06.18 02:04:56 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:04:56 INFO  time: compiled runningTime_f4dd477a3a in 0.15s
+2024.06.18 02:05:05 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:05:05 INFO  time: compiled runningTime_f4dd477a3a in 0.15s
+2024.06.18 02:05:51 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+        (8/*distance
+          ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:05:53 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:05:53 INFO  time: compiled runningTime_f4dd477a3a in 0.13s
+2024.06.18 02:05:54 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:05:54 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:06:11 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+Jun 18, 2024 2:06:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1044
+2024.06.18 02:06:11 INFO  time: compiled runningTime_f4dd477a3a in 0.15s
+2024.06.18 02:06:14 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:06:14 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:06:19 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:06:19 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:06:56 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:06:56 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 02:06:57 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:06:57 INFO  time: compiled runningTime_f4dd477a3a in 0.16s
+2024.06.18 02:07:00 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:00 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:07:19 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:19 INFO  time: compiled runningTime_f4dd477a3a in 0.23s
+2024.06.18 02:07:21 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:21 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:07:25 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:25 INFO  time: compiled runningTime_f4dd477a3a in 97ms
+2024.06.18 02:07:32 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:32 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 02:07:37 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:37 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:07:41 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:41 INFO  time: compiled runningTime_f4dd477a3a in 0.13s
+2024.06.18 02:07:43 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:07:43 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:08:08 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:08 INFO  time: compiled runningTime_f4dd477a3a in 0.14s
+2024.06.18 02:08:11 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:11 INFO  time: compiled runningTime_f4dd477a3a in 95ms
+2024.06.18 02:08:15 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:15 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+2024.06.18 02:08:18 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:18 INFO  time: compiled runningTime_f4dd477a3a in 0.21s
+2024.06.18 02:08:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed quoted identifier
+    `
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:496)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:344)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:08:43 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:43 INFO  time: compiled runningTime_f4dd477a3a in 0.13s
+2024.06.18 02:08:45 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:45 INFO  time: compiled runningTime_f4dd477a3a in 0.2s
+2024.06.18 02:08:48 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:48 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+Jun 18, 2024 2:08:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1436
+2024.06.18 02:08:54 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:54 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+2024.06.18 02:08:58 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:08:58 INFO  time: compiled runningTime_f4dd477a3a in 0.1s
+2024.06.18 02:09:00 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:00 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:09:03 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:03 INFO  time: compiled runningTime_f4dd477a3a in 94ms
+2024.06.18 02:09:05 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:05 INFO  time: compiled runningTime_f4dd477a3a in 0.21s
+2024.06.18 02:09:07 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:07 INFO  time: compiled runningTime_f4dd477a3a in 82ms
+2024.06.18 02:09:09 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:09 INFO  time: compiled runningTime_f4dd477a3a in 0.15s
+2024.06.18 02:09:10 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:10 INFO  time: compiled runningTime_f4dd477a3a in 96ms
+2024.06.18 02:09:15 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:15 INFO  time: compiled runningTime_f4dd477a3a in 98ms
+2024.06.18 02:09:23 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:23 INFO  time: compiled runningTime_f4dd477a3a in 0.19s
+2024.06.18 02:09:25 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:25 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:09:27 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:27 INFO  time: compiled runningTime_f4dd477a3a in 99ms
+2024.06.18 02:09:29 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:29 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:09:33 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:33 INFO  time: compiled runningTime_f4dd477a3a in 99ms
+2024.06.18 02:09:35 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:35 INFO  time: compiled runningTime_f4dd477a3a in 0.21s
+2024.06.18 02:09:37 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:37 INFO  time: compiled runningTime_f4dd477a3a in 0.19s
+2024.06.18 02:09:39 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:09:39 INFO  time: compiled runningTime_f4dd477a3a in 0.21s
+2024.06.18 02:10:10 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:10 INFO  time: compiled runningTime_f4dd477a3a in 0.22s
+2024.06.18 02:10:12 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:12 INFO  time: compiled runningTime_f4dd477a3a in 0.22s
+2024.06.18 02:10:15 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:15 INFO  time: compiled runningTime_f4dd477a3a in 0.2s
+Jun 18, 2024 2:10:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1705
+2024.06.18 02:10:49 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:49 INFO  time: compiled runningTime_f4dd477a3a in 0.12s
+2024.06.18 02:10:51 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:51 INFO  time: compiled runningTime_f4dd477a3a in 0.23s
+2024.06.18 02:10:55 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:10:55 INFO  time: compiled runningTime_f4dd477a3a in 0.2s
+2024.06.18 02:11:02 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:02 INFO  time: compiled runningTime_f4dd477a3a in 0.24s
+2024.06.18 02:11:19 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:19 INFO  time: compiled runningTime_f4dd477a3a in 0.25s
+2024.06.18 02:11:21 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:21 INFO  time: compiled runningTime_f4dd477a3a in 0.2s
+2024.06.18 02:11:23 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:23 INFO  time: compiled runningTime_f4dd477a3a in 0.26s
+2024.06.18 02:11:24 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string interpolation
+        println(s"Total running time is $")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:11:25 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:25 INFO  time: compiled runningTime_f4dd477a3a in 0.11s
+2024.06.18 02:11:25 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\runningTime\runningTime.scala
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string interpolation
+        println(s"Total running time is $")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 02:11:28 INFO  compiling runningtime_f4dd477a3a (1 scala source)
+2024.06.18 02:11:28 INFO  time: compiled runningTime_f4dd477a3a in 0.19s
+2024.06.18 02:28:12 INFO  Shutting down server
+2024.06.18 02:28:12 INFO  shutting down Metals
+2024.06.18 02:28:12 INFO  Shut down connection with build server.
+2024.06.18 02:28:12 INFO  Exiting server

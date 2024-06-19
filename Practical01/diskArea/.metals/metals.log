@@ -1,0 +1,929 @@
+2024.06.18 00:39:58 INFO  Started: Metals version 1.3.1 in folders 'C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18b1e155]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@118db580]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18b1e155]
+2024.06.18 00:39:58 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 00:39:59 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:40:02 INFO  Running List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea)
+2024.06.18 00:40:02 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:40:02 INFO  Attempting to connect to the build server...
+2024.06.18 00:40:02 INFO  Running BSP server List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\.scala-build\ide-envs.json, C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea)
+2024.06.18 00:40:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\.metals\bsp.trace.json or C:\Users\irushi weerasinghe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 00:40:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.06.18 00:40:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.06.18 00:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.06.18 00:40:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+2024.06.18 00:40:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+2024.06.18 00:40:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.06.18 00:40:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.06.18 00:40:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.06.18 00:40:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.06.18 00:40:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.06.18 00:40:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.06.18 00:40:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.06.18 00:40:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.06.18 00:40:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.06.18 00:40:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.06.18 00:40:22 INFO  BSP server: Starting compilation server
+2024.06.18 00:40:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.06.18 00:40:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.06.18 00:40:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.06.18 00:40:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.06.18 00:40:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.06.18 00:40:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.06.18 00:40:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.06.18 00:40:30 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.06.18 00:40:31 INFO  time: Connected to build server in 28s
+2024.06.18 00:40:31 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.18 00:40:31 INFO  time: Imported build in 0.34s
+2024.06.18 00:40:32 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:40:35 INFO  time: compiled diskArea_f4dd477a3a in 3.17s
+2024.06.18 00:40:54 INFO  time: indexed workspace in 22s
+2024.06.18 00:43:09 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:43:09 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:44:29 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 00:44:29 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:29 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:30 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:30 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:30 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:30 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:32 INFO  Running List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\IRUSHI~1\AppData\Local\Temp\metals-scala-cli11367632497347353279, C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala)
+2024.06.18 00:44:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\.metals\bsp.trace.json or C:\Users\irushi weerasinghe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 00:44:32 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:44:35 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:44:36 INFO  Connected to Scala CLI server v1.3.2
+2024.06.18 00:44:36 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:44:37 INFO  compiling metals-scala-cli11367632497347353279_f4dd477a3a-4cbf2cebfd (1 scala source)
+Jun 18, 2024 12:44:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+Jun 18, 2024 12:44:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2024.06.18 00:44:41 INFO  time: compiled metals-scala-cli11367632497347353279_f4dd477a3a-4cbf2cebfd in 4.62s
+2024.06.18 00:44:41 INFO  time: compiled diskArea_f4dd477a3a in 5.01s
+2024.06.18 00:44:42 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:44:42 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:44:43 INFO  time: indexed workspace in 6.51s
+2024.06.18 00:44:43 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:44:43 INFO  Scala CLI started for C:\Users\irushi weerasinghe\Desktop\Scala\hello-world\src\main\scala\Main.scala
+2024.06.18 00:44:43 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:44:43 INFO  time: compiled diskArea_f4dd477a3a in 0.63s
+2024.06.18 00:44:44 WARN  Could not find semantic tokens for: file:///C:/Users/irushi%20weerasinghe/Desktop/Practical01/diskArea/diskArea.scala
+2024.06.18 00:45:02 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:02 INFO  time: compiled diskArea_f4dd477a3a in 0.19s
+2024.06.18 00:45:08 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:08 INFO  time: compiled diskArea_f4dd477a3a in 0.18s
+2024.06.18 00:45:13 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:13 INFO  time: compiled diskArea_f4dd477a3a in 0.18s
+2024.06.18 00:45:19 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:19 INFO  time: compiled diskArea_f4dd477a3a in 0.25s
+2024.06.18 00:45:20 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:20 INFO  time: compiled diskArea_f4dd477a3a in 0.25s
+2024.06.18 00:45:22 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:22 INFO  time: compiled diskArea_f4dd477a3a in 0.15s
+2024.06.18 00:45:26 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:26 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:45:28 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:28 INFO  time: compiled diskArea_f4dd477a3a in 0.23s
+2024.06.18 00:45:30 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:30 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:45:35 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:36 INFO  time: compiled diskArea_f4dd477a3a in 1.4s
+2024.06.18 00:45:41 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:41 INFO  time: compiled diskArea_f4dd477a3a in 0.19s
+2024.06.18 00:45:47 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:47 INFO  time: compiled diskArea_f4dd477a3a in 0.14s
+2024.06.18 00:45:56 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:56 INFO  time: compiled diskArea_f4dd477a3a in 0.15s
+2024.06.18 00:45:58 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:45:58 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:46:01 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:01 INFO  time: compiled diskArea_f4dd477a3a in 0.14s
+2024.06.18 00:46:05 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:05 INFO  time: compiled diskArea_f4dd477a3a in 0.26s
+2024.06.18 00:46:05 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:06 INFO  time: compiled diskArea_f4dd477a3a in 0.11s
+2024.06.18 00:46:10 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:10 INFO  time: compiled diskArea_f4dd477a3a in 0.24s
+2024.06.18 00:46:11 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:11 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:46:14 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:14 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:46:19 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:19 INFO  time: compiled diskArea_f4dd477a3a in 0.9s
+2024.06.18 00:46:22 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:22 INFO  time: compiled diskArea_f4dd477a3a in 0.21s
+2024.06.18 00:46:23 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:23 INFO  time: compiled diskArea_f4dd477a3a in 0.59s
+2024.06.18 00:46:33 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:33 INFO  time: compiled diskArea_f4dd477a3a in 0.53s
+2024.06.18 00:46:35 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:46:35 INFO  time: compiled diskArea_f4dd477a3a in 0.6s
+2024.06.18 00:47:37 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:37 INFO  time: compiled diskArea_f4dd477a3a in 0.38s
+2024.06.18 00:47:38 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:38 INFO  time: compiled diskArea_f4dd477a3a in 0.5s
+2024.06.18 00:47:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed string literal
+  println("Hell
+          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:47:43 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:43 INFO  time: compiled diskArea_f4dd477a3a in 0.31s
+2024.06.18 00:47:49 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:49 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:47:50 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:50 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:47:53 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:53 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:47:57 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:47:57 INFO  time: compiled diskArea_f4dd477a3a in 0.34s
+2024.06.18 00:48:02 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:02 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:48:04 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:04 INFO  time: compiled diskArea_f4dd477a3a in 0.19s
+2024.06.18 00:48:06 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:06 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:48:10 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:10 INFO  time: compiled diskArea_f4dd477a3a in 0.19s
+2024.06.18 00:48:11 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:11 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:48:13 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:13 INFO  time: compiled diskArea_f4dd477a3a in 0.3s
+2024.06.18 00:48:28 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:28 INFO  time: compiled diskArea_f4dd477a3a in 0.34s
+2024.06.18 00:48:31 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:31 INFO  time: compiled diskArea_f4dd477a3a in 0.17s
+2024.06.18 00:48:34 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:34 INFO  time: compiled diskArea_f4dd477a3a in 0.27s
+2024.06.18 00:48:36 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:36 INFO  time: compiled diskArea_f4dd477a3a in 0.28s
+2024.06.18 00:48:43 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:43 INFO  time: compiled diskArea_f4dd477a3a in 0.29s
+2024.06.18 00:48:48 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:48 INFO  time: compiled diskArea_f4dd477a3a in 0.26s
+2024.06.18 00:48:54 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:54 INFO  time: compiled diskArea_f4dd477a3a in 0.31s
+2024.06.18 00:48:58 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:48:58 INFO  time: compiled diskArea_f4dd477a3a in 0.29s
+2024.06.18 00:49:01 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:49:01 INFO  time: compiled diskArea_f4dd477a3a in 0.31s
+2024.06.18 00:49:09 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:49:09 INFO  time: compiled diskArea_f4dd477a3a in 0.29s
+2024.06.18 00:49:12 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:49:12 INFO  time: compiled diskArea_f4dd477a3a in 0.27s
+2024.06.18 00:49:17 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:49:17 INFO  time: compiled diskArea_f4dd477a3a in 0.26s
+2024.06.18 00:50:02 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:50:02 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:50:02 INFO  Cancelling compilation on scala-cli server
+2024.06.18 00:50:02 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:02 INFO  time: compiled diskArea_f4dd477a3a in 0.74s
+2024.06.18 00:50:03 INFO  time: Imported build in 0.89s
+2024.06.18 00:50:04 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 00:50:10 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:10 INFO  time: compiled diskArea_f4dd477a3a in 0.32s
+2024.06.18 00:50:12 INFO  time: indexed workspace in 9.17s
+2024.06.18 00:50:13 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:13 INFO  time: compiled diskArea_f4dd477a3a in 0.28s
+2024.06.18 00:50:18 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:18 INFO  time: compiled diskArea_f4dd477a3a in 0.15s
+Jun 18, 2024 12:50:19 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+java.nio.file.NoSuchFileException: C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:29)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:229)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 18, 2024 12:50:19 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+java.nio.file.NoSuchFileException: C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:29)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:229)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 18, 2024 12:50:19 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+java.nio.file.NoSuchFileException: C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:228)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:228)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:29)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:229)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Jun 18, 2024 12:50:19 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+java.nio.file.NoSuchFileException: C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\diskArea.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:410)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:279)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:290)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:301)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:205)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:205)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:228)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:228)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:178)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:159)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:159)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:44)
+	at dotty.tools.pc.utils.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:283)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:29)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:229)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:157)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:143)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:246)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:50:22 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:22 INFO  time: compiled diskArea_f4dd477a3a in 0.35s
+2024.06.18 00:50:32 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:50:32 INFO  time: compiled diskArea_f4dd477a3a in 0.25s
+Jun 18, 2024 12:51:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 775
+2024.06.18 00:51:10 INFO  Report absolute-path: ### java.lang.IllegalArgumentException: Illegal character in opaque part at index 27: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+
+Uri: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+
+
+#### Error stacktrace:
+
+```
+java.base/java.net.URI.create(URI.java:932)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:741)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:738)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:724)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:296)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:749)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+```
+
+Jun 18, 2024 12:51:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/irushi%20weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/App.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "/*\n * Scala (https://www.scala-lang.org)\n *\n * Copyright EPFL and Lightbend, Inc.\n *\n * Licensed under Apache License 2.0\n * (http://www.apache.org/licenses/LICENSE-2.0).\n *\n * See the NOTICE file distributed with this work for\n * additional information regarding copyright ownership.\n */\n\npackage scala\n\nimport java.lang.System.{currentTimeMillis \u003d\u003e currentTime}\n\nimport scala.annotation.nowarn\nimport scala.collection.mutable.ListBuffer\n\n/** The `App` trait can be used to quickly turn objects\n *  into executable programs. Here is an example:\n *  {{{\n *  object Main extends App {\n *    Console.println(\"Hello World: \" + (args mkString \", \"))\n *  }\n *  }}}\n *\n *  No explicit `main` method is needed.  Instead,\n *  the whole class body becomes the “main method”.\n *\n *  `args` returns the current command line arguments as an array.\n *\n *  \u003d\u003dCaveats\u003d\u003d\n *\n *  \u0027\u0027\u0027\u0027\u0027It should be noted that this trait is implemented using the [[DelayedInit]]\n *  functionality, which means that fields of the object will not have been initialized\n *  before the main method has been executed.\u0027\u0027\u0027\u0027\u0027\n *\n *  Future versions of this trait will no longer extend `DelayedInit`.\n * \n *  In Scala 3, the `DelayedInit` feature was dropped. `App` exists only in a limited form\n *  that also does not support command line arguments and will be deprecated in the future.\n * \n *  [[https://docs.scala-lang.org/scala3/book/methods-main-methods.html @main]] methods are the\n *  recommended scheme to generate programs that can be invoked from the command line in Scala 3.\n * \n *  {{{\n *  @main def runMyProgram(args: String*): Unit \u003d {\n *    // your program here\n *  }\n *  }}}\n * \n *  If programs need to cross-build between Scala 2 and Scala 3, it is recommended to use an\n *  explicit `main` method:\n *  {{{\n *  object Main {\n *    def main(args: Array[String]): Unit \u003d {\n *      // your program here\n *    }\n *  }\n *  }}}\n */\n@nowarn(\"\"\"cat\u003ddeprecation\u0026origin\u003dscala\\.DelayedInit\"\"\")\ntrait App extends DelayedInit {\n\n  /** The time when the execution of this program started, in milliseconds since 1\n    * January 1970 UTC. */\n  final val executionStart: Long \u003d currentTime\n\n  /** The command line arguments passed to the application\u0027s `main` method.\n   */\n  protected final def args: Array[String] \u003d _args\n\n  private[this] var _args: Array[String] \u003d _\n\n  private[this] val initCode \u003d new ListBuffer[() \u003d\u003e Unit]\n\n  /** The init hook. This saves all initialization code for execution within `main`.\n   *  This method is normally never called directly from user code.\n   *  Instead it is called as compiler-generated code for those classes and objects\n   *  (but not traits) that inherit from the `DelayedInit` trait and that do not\n   *  themselves define a `delayedInit` method.\n   *  @param body the initialization code to be stored for later execution\n   */\n  @deprecated(\"the delayedInit mechanism will disappear\", \"2.11.0\")\n  override def delayedInit(body: \u003d\u003e Unit): Unit \u003d {\n    initCode +\u003d (() \u003d\u003e body)\n  }\n\n  /** The main method.\n   *  This stores all arguments so that they can be retrieved with `args`\n   *  and then executes all initialization code segments in the order in which\n   *  they were passed to `delayedInit`.\n   *  @param args the arguments passed to the main method\n   */\n  final def main(args: Array[String]) \u003d {\n    this._args \u003d args\n    for (proc \u003c- initCode) proc()\n    if (util.Properties.propIsSet(\"scala.time\")) {\n      val total \u003d currentTime - executionStart\n      Console.println(\"[total \" + total + \"ms]\")\n    }\n  }\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 27: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+	at java.base/java.net.URI.create(URI.java:932)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:741)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:738)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:366)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 27: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3202)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URI.create(URI.java:930)
+	... 22 more
+
+Jun 18, 2024 12:51:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/irushi%20weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar%21/scala/App.scala"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 27: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+	at java.base/java.net.URI.create(URI.java:932)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:741)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:738)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:385)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 27: jar:file:///C:/Users/irushi weerasinghe/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar!/scala/App.scala
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3202)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URI.create(URI.java:930)
+	... 22 more
+
+2024.06.18 00:51:17 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:51:17 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:51:18 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:51:18 INFO  time: compiled diskArea_f4dd477a3a in 0.4s
+2024.06.18 00:52:02 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:02 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:52:03 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println("The area of a disk with radius" $radius is $area")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:52:04 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:04 INFO  time: compiled diskArea_f4dd477a3a in 0.68s
+2024.06.18 00:52:05 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println("The area of a disk with radius" $radius is $area")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:52:15 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:15 INFO  time: compiled diskArea_f4dd477a3a in 0.53s
+2024.06.18 00:52:19 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:19 INFO  time: compiled diskArea_f4dd477a3a in 0.62s
+2024.06.18 00:52:22 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string literal
+  println("The area of a disk with radius" $radius "is"" $area)
+                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:52:23 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:23 INFO  time: compiled diskArea_f4dd477a3a in 0.48s
+2024.06.18 00:52:24 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string literal
+  println("The area of a disk with radius" $radius "is"" $area)
+                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:560)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:52:28 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:28 INFO  time: compiled diskArea_f4dd477a3a in 0.47s
+2024.06.18 00:52:39 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:39 INFO  time: compiled diskArea_f4dd477a3a in 0.42s
+2024.06.18 00:52:42 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:42 INFO  time: compiled diskArea_f4dd477a3a in 0.15s
+2024.06.18 00:52:47 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:52:47 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 00:53:39 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:53:39 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:53:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println("The area of a disk with radius"+ is"+ $area)
+                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:53:41 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println("The area of a disk with radius"is"+ $area)
+                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 00:53:42 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:53:42 INFO  time: compiled diskArea_f4dd477a3a in 0.13s
+2024.06.18 00:53:44 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 00:53:44 INFO  time: compiled diskArea_f4dd477a3a in 0.17s
+2024.06.18 01:05:25 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:05:25 INFO  time: compiled diskArea_f4dd477a3a in 0.37s
+2024.06.18 01:07:12 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:07:12 INFO  time: compiled diskArea_f4dd477a3a in 0.39s
+2024.06.18 01:07:17 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:07:17 INFO  time: compiled diskArea_f4dd477a3a in 0.35s
+2024.06.18 01:07:21 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:07:21 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println(s"The area of a disk with $radius is $")
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:07:21 INFO  time: compiled diskArea_f4dd477a3a in 0.4s
+2024.06.18 01:07:21 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println(s"The area of a disk with $radius is $")
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:07:21 WARN  Could not load snapshot text for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+2024.06.18 01:07:22 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:07:22 INFO  time: compiled diskArea_f4dd477a3a in 0.12s
+2024.06.18 01:07:22 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string interpolation
+  println(s"The area of a disk with $radius is $")
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:07:22 WARN  Could not load snapshot text for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+2024.06.18 01:07:23 WARN  Could not load snapshot text for C:\Users\irushi weerasinghe\Desktop\Practical01\diskArea\Main.scala
+2024.06.18 01:07:24 INFO  compiling diskarea_f4dd477a3a (1 scala source)
+2024.06.18 01:07:24 INFO  time: compiled diskArea_f4dd477a3a in 0.31s
+2024.06.18 01:09:20 INFO  Shutting down server
+2024.06.18 01:09:20 INFO  shutting down Metals
+2024.06.18 01:09:20 INFO  Shut down connection with build server.
+2024.06.18 01:09:20 INFO  Exiting server

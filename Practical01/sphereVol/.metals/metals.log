@@ -1,0 +1,262 @@
+2024.06.18 01:19:11 INFO  Started: Metals version 1.3.1 in folders 'C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol' for client Visual Studio Code 1.90.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3be3779]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@29fb34c2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3be3779]
+2024.06.18 01:19:11 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 01:19:13 INFO  no build target found for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 01:19:15 INFO  Running List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol)
+2024.06.18 01:19:15 INFO  Attempting to connect to the build server...
+2024.06.18 01:19:15 INFO  Running BSP server List(C:\Users\irushi weerasinghe\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\.scala-build\ide-envs.json, C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol)
+2024.06.18 01:19:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\.metals\bsp.trace.json or C:\Users\irushi weerasinghe\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.18 01:19:20 INFO  time: Connected to build server in 4.53s
+2024.06.18 01:19:20 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.18 01:19:20 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:20 INFO  time: compiled sphereVol_f4dd477a3a in 0.3s
+2024.06.18 01:19:20 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:20 INFO  time: compiled sphereVol_f4dd477a3a in 0.58s
+2024.06.18 01:19:23 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:23 INFO  time: compiled sphereVol_f4dd477a3a in 0.39s
+2024.06.18 01:19:26 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:26 INFO  time: compiled sphereVol_f4dd477a3a in 0.51s
+2024.06.18 01:19:26 INFO  time: indexed workspace in 6.65s
+2024.06.18 01:19:27 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:27 INFO  time: compiled sphereVol_f4dd477a3a in 0.28s
+2024.06.18 01:19:27 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:27 INFO  time: compiled sphereVol_f4dd477a3a in 0.26s
+2024.06.18 01:19:29 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:29 INFO  time: compiled sphereVol_f4dd477a3a in 0.27s
+2024.06.18 01:19:32 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:32 INFO  time: compiled sphereVol_f4dd477a3a in 0.11s
+2024.06.18 01:19:38 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:38 INFO  time: compiled sphereVol_f4dd477a3a in 0.15s
+2024.06.18 01:19:44 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:44 INFO  time: compiled sphereVol_f4dd477a3a in 0.29s
+2024.06.18 01:19:54 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:54 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:19:57 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:19:57 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:20:04 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:04 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:20:08 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:08 INFO  time: compiled sphereVol_f4dd477a3a in 0.42s
+2024.06.18 01:20:17 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:17 INFO  time: compiled sphereVol_f4dd477a3a in 0.13s
+2024.06.18 01:20:22 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:22 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:20:25 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:25 INFO  time: compiled sphereVol_f4dd477a3a in 96ms
+2024.06.18 01:20:27 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:27 INFO  time: compiled sphereVol_f4dd477a3a in 0.16s
+2024.06.18 01:20:30 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:30 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:20:40 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:40 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:20:55 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:55 INFO  time: compiled sphereVol_f4dd477a3a in 0.19s
+Jun 18, 2024 1:20:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+2024.06.18 01:20:58 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:20:58 INFO  time: compiled sphereVol_f4dd477a3a in 0.16s
+2024.06.18 01:21:01 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:01 INFO  time: compiled sphereVol_f4dd477a3a in 0.2s
+2024.06.18 01:21:04 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:04 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:21:08 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:08 INFO  time: compiled sphereVol_f4dd477a3a in 0.31s
+2024.06.18 01:21:12 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:12 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:21:15 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:15 INFO  time: compiled sphereVol_f4dd477a3a in 0.37s
+2024.06.18 01:21:27 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:27 INFO  time: compiled sphereVol_f4dd477a3a in 0.33s
+2024.06.18 01:21:29 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:29 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:21:33 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:33 INFO  time: compiled sphereVol_f4dd477a3a in 0.37s
+2024.06.18 01:21:35 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:35 INFO  time: compiled sphereVol_f4dd477a3a in 0.31s
+2024.06.18 01:21:37 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:37 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:21:44 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:44 INFO  time: compiled sphereVol_f4dd477a3a in 0.28s
+2024.06.18 01:21:46 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:46 INFO  time: compiled sphereVol_f4dd477a3a in 0.27s
+2024.06.18 01:21:50 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:50 INFO  time: compiled sphereVol_f4dd477a3a in 0.36s
+2024.06.18 01:21:53 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:53 WARN  Could not load snapshot text for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala
+2024.06.18 01:21:53 INFO  time: compiled sphereVol_f4dd477a3a in 0.34s
+2024.06.18 01:21:55 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:21:55 INFO  time: compiled sphereVol_f4dd477a3a in 0.27s
+Jun 18, 2024 1:21:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 597
+2024.06.18 01:22:06 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:06 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:22:09 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:09 INFO  time: compiled sphereVol_f4dd477a3a in 0.1s
+2024.06.18 01:22:16 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:16 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:22:20 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:20 INFO  time: compiled sphereVol_f4dd477a3a in 0.13s
+2024.06.18 01:22:25 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:25 INFO  time: compiled sphereVol_f4dd477a3a in 0.16s
+2024.06.18 01:22:37 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:37 INFO  time: compiled sphereVol_f4dd477a3a in 0.29s
+2024.06.18 01:22:40 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:40 INFO  time: compiled sphereVol_f4dd477a3a in 0.26s
+2024.06.18 01:22:41 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:41 INFO  time: compiled sphereVol_f4dd477a3a in 0.34s
+2024.06.18 01:22:46 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:46 INFO  time: compiled sphereVol_f4dd477a3a in 0.27s
+2024.06.18 01:22:52 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:22:52 INFO  time: compiled sphereVol_f4dd477a3a in 0.24s
+2024.06.18 01:23:11 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:11 INFO  time: compiled sphereVol_f4dd477a3a in 0.26s
+2024.06.18 01:23:12 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:10: error: unclosed string interpolation
+    println(s"Volume of a sphere with a radius $")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:23:13 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:13 INFO  time: compiled sphereVol_f4dd477a3a in 0.14s
+2024.06.18 01:23:14 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:10: error: unclosed string interpolation
+    println(s"Volume of a sphere with a radius $")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:23:16 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:16 INFO  time: compiled sphereVol_f4dd477a3a in 0.27s
+2024.06.18 01:23:18 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:18 INFO  time: compiled sphereVol_f4dd477a3a in 0.26s
+2024.06.18 01:23:21 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:10: error: unclosed string interpolation
+    println(s"Volume of a sphere with a radius $radius is $")
+                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:23:22 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:22 INFO  time: compiled sphereVol_f4dd477a3a in 0.12s
+2024.06.18 01:23:22 ERROR Failed to tokenize input for semantic tokens for C:\Users\irushi weerasinghe\Desktop\Practical01\sphereVol\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:10: error: unclosed string interpolation
+    println(s"Volume of a sphere with a radius $radius is $")
+                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.06.18 01:23:24 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:24 INFO  time: compiled sphereVol_f4dd477a3a in 0.26s
+2024.06.18 01:23:27 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:27 INFO  time: compiled sphereVol_f4dd477a3a in 0.32s
+2024.06.18 01:23:35 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:23:35 INFO  time: compiled sphereVol_f4dd477a3a in 0.31s
+2024.06.18 01:24:00 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:24:00 INFO  time: compiled sphereVol_f4dd477a3a in 0.29s
+2024.06.18 01:24:26 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:24:26 INFO  time: compiled sphereVol_f4dd477a3a in 0.24s
+2024.06.18 01:24:29 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:24:29 INFO  time: compiled sphereVol_f4dd477a3a in 0.16s
+2024.06.18 01:24:33 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:24:33 INFO  time: compiled sphereVol_f4dd477a3a in 0.33s
+2024.06.18 01:25:10 INFO  compiling spherevol_f4dd477a3a (1 scala source)
+2024.06.18 01:25:10 INFO  time: compiled sphereVol_f4dd477a3a in 0.28s
+2024.06.18 01:38:03 INFO  Shutting down server
+2024.06.18 01:38:03 INFO  shutting down Metals
+2024.06.18 01:38:03 INFO  Shut down connection with build server.
+2024.06.18 01:38:03 INFO  Exiting server
