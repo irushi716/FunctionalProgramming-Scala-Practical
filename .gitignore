@@ -19,8 +19,13 @@ target/
 
 # Project files
 *.iml
-.idea/
-.vscode/
+
 
 tutes
 
+.idea/
+.vscode/
+.bsp/
+.metals/
+.metals-scala-cli/
+.scala-build/
