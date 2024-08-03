@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\irushi weerasinghe\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "D:\\UCSC-CS\\Second_Year\\Semester1\\SCS2204 Functional Programming\\Practical\\Practical\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "D:\\UCSC-CS\\Second_Year\\Semester1\\SCS2204 Functional Programming\\Practical\\Practical\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "D:\\UCSC-CS\\Second_Year\\Semester1\\SCS2204 Functional Programming\\Practical\\Practical\\.scala-build\\ide-envs.json",
+    "D:\\UCSC-CS\\Second_Year\\Semester1\\SCS2204 Functional Programming\\Practical\\Practical"
+  ],
+  "version": "1.3.2",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
